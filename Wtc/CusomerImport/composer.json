@@ -1,0 +1,29 @@
+{
+    "name": "wtc/module-cusomerimport",
+    "description": "Customer Import with csv and json",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "josephsuresh",
+            "email": "jssureshj@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "require": {
+        "php": "~7.3.0||~7.4.0||~8.1.0||~8.2.0",
+        "magento/framework": "103.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wtc\\CusomerImport\\": ""
+        }
+    }
+}
